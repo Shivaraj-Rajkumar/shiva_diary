@@ -63,7 +63,7 @@ body{
     color: rgb(13, 124, 124);
 }
 .c:hover img{
-    width:100%;
+    width:400px;
     transition: 200ms;
 }
 .item4{
@@ -181,24 +181,22 @@ span{
     width: 50%;
 }
 img{
-    width:90%;
+    width:200px;
     height: 200px;
     border-radius: 10px;
 }
 .para1>p{
       
-      height: 200px;
-      color: grey;
-      overflow: hidden;
-      margin-top: 10px;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 200px;
+    color: grey;
+    overflow: hidden;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .item4 .para1{
-
     text-align: left;
 }
 .item3 .para1{
-
     text-align: right;
 }
 a{
@@ -206,7 +204,6 @@ a{
     border-radius: 10px;
     padding: 5px 0px;
     color:  rgb(7, 82, 82);
-
 }
 .menu{
     box-shadow: 0px 0px 4px 4px  rgb(7, 82, 82);
@@ -219,7 +216,6 @@ a{
     position: absolute;
 }
 .menu a:hover{
-   
     color:  white;
     background-color: rgb(7, 82, 82) ;
 }
@@ -232,7 +228,6 @@ a{
     right: 0px;
     top: 78px;
 }
-
 .mob{
     display:flex ;
     align-items: center;
@@ -243,8 +238,7 @@ a{
     flex-wrap:wrap ;
     flex-direction: column;
   }
-  
-    .item1> .search,.mob{
+  .item1> .search,.mob{
     display: none;
   }   
   .item3{
