@@ -63,7 +63,7 @@ body{
     color: rgb(13, 124, 124);
 }
 .c:hover img{
-    width:400px;
+    width:100%;
     transition: 200ms;
 }
 .item4{
@@ -181,7 +181,7 @@ span{
     width: 50%;
 }
 img{
-    width:200px;
+    width:90%;
     height: 200px;
     border-radius: 10px;
 }
