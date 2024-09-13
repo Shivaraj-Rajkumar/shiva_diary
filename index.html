@@ -3,121 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day35</title>
-    <link rel="stylesheet" href="./css/style.css" type="text/css">
-    <script src="https://kit.fontawesome.com/c5e020135f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>bookmyshow</title>
 </head>
 <body>
-    <div class="container">
-        <div class="item1 j">
-            <div class="card">
-              <h2>MAKE MY TOUR</h2>
-                
-            </div>
-            <div class="search">
-                <input type="text" placeholder="Type to Search">
-                <label>Search</label>
-             </div>
-            
-            <div class="whole ">
-                <div class="mob">
-                    <div class="icon">
-                      <i class="fa-solid fa-user"></i>
-                    </div>
-                    <div class="profile">
-                      <p>Shivaraj.R</p>
-                      <p>Front-end Developer</p>
-                    </div>
-                </div>
-                <div class="icon">
-                    <i class="fa-solid fa-bars"></i>
-                    <div class="menu">
-                       <a href="#">Profile</a>
-                       <a href="#">Account</a>
-                       <a href="#">History</a>
-                       <a href="#">Settings</a>
-                    </div>
-                </div>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#"><i>bookmyshow</i></a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light " href="#">Tickets</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Movies
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-light" href="#">Vaalai</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Kottukaali</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-light" href="#">Raayan</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">Help</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search Movies" aria-label="Search">
+              <button class="btn btn-outline-light text-light " type="submit">Search</button>
+            </form>
+          </div>
         </div>
-        <div class="item2 j">
-            <div class="dropdown">
-              <button>Packages</button>
-                <div class="menu">
-                   <a href="#">Singapore</a>
-                   <a href="#">Malaysia</a>
-                   <a href="#">Hong Kong</a>
-                   <a href="#">Indonesia</a>
-                </div>
-            </div>
-            <div class="dropdown">
-              <button>Offers</button>
-                <div class="menu">
-                    <a href="#">single tourist</a>
-                    <a href="#">Couple Tourist</a>
-                    <a href="#">Friends trip</a>
-                    <a href="#">family Trips</a>
-                </div>
-            </div>
-            <div class="dropdown">
-              <button>Service</button>
-                <div class="menu">
-                   <a href="#">Transport</a>
-                   <a href="#">Food</a>
-                   <a href="#">Stay</a>
-                   <a href="#">sightseeing</a>
-                </div>
-            </div>
-            <div class="dropdown">
-              <button>About Us</button>
-                <div class="menu">
-                   <a href="#">Book my trip</a>
-                   <a href="#">Book my trip</a>
-                   <a href="#">Book my trip</a>
-                   <a href="#">Book my trip</a>
-                </div>
-            </div>
+      </nav>
+        <div class="w-100  p-2 d-flex flex-sm-column-reverse flex-lg-row flex-md-row  align-items-center  bg-light">
+        <div class="w-70 p-1 d-flex flex-sm-column align-items-sm-center align-items-md-start align-items-lg-start">
+          <h2>G.O.A.T</h2>
+           <p> The G.O.A.T Movie's short story is After years of successful operations, an elite agent suddenly retires, choosing a quiet, ordinary life. However, when a past mission comes back to haunt him, he reunites with his team to prevent a catastrophic disaster.
+            Vijay left his fans in awe with his action-packed avatar in the trailer. It introduced Vijay as a field agent and spy who has carried out over 65 successful operations in his career. The trailer gave a glimpse of Vijay's double role, playing a father-son duo.
+         </p>
+        <a href="#content"> <button class="btn btn-primary " type="submit"> Buy </button></a>
         </div>
-       
-        <div class="item3 j c">
-            <div class="image1">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdSC_H3TocK2uhNBs8KoqmKhvibbnsmzlj7Q&s" alt="Thailand">
-            </div>
-            <div class="para1 ">
-                <h2>Thailand</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed illum maxime corrupti ab commodi, quam vitae velit, ducimus repellat quo atque aliquid beatae eaque ipsa. Et veniam provident dolorum iste.
-                    Maiores possimus ratione sint repellendus expedita laudantium delectus tempore enim animi earum quisquam quam eveniet magnam, quia odio facere sapiente odit repellat itaque nulla mollitia dignissimos! Porro error atque aspernatur.
-                   Vitae voluptas  tempore dicta facere! Exercitationem totam rem corporis ullam earum minima, doloribus assumenda rerum facere commodi, doloremque pariatur cum tempore laboriosam delectus.
-                </p>
-            </div>
-
+           <div class="w-30 p-1  ">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbbcTJAHxHJOKQDP_E7V7USnjh_fB7DAp9Lw&s" alt="image" class="rounded" width="250px" height="250px"/>
+           </div>
         </div>
-        <div class="item4 j c">
-            <div class="image1">
-                
-                <img src="https://i.natgeofe.com/n/04505c35-858b-4e95-a1a7-d72e5418b7fc/steep-karst-cliffs-of-el-nido-in-palawan_16x9.jpg" alt="philiphines">
-            </div>
-            <div class=" para1 ">
-                <h2>Philliphines</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed illum maxime corrupti ab commodi, quam vitae velit, ducimus repellat quo atque aliquid beatae eaque ipsa. Et veniam provident dolorum iste.
-                    Maiores possimus ratione sint repellendus expedita laudantium delectus tempore enim animi earum quisquam quam eveniet magnam, quia odio facere sapiente odit repellat itaque nulla mollitia dignissimos! Porro error atque aspernatur.
-                   Vitae facere! Exercitationem totam rem corporis ullam earum minima, doloribus assumenda rerum facere commodi, doloremque pariatur cum tempore laboriosam delectus.
-                </p>
-            </div>
+        
+        <div class="container-fluid p-1 bg-dark text-light ">
+          <h3>Trending Movies</h3>
         </div>
-        <div class="item5 j">
-            <div class="address">
-                <h2>Address:</h2>
-                <p>7/339A ,modern street</p>
-                <p>new style avanue</p>
-                <p>Velachery</p>
-                <p>chennai - 600091</p>
-            </div>
-            <div class="map">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.966634058997!2d80.2165226735681!3d12.973985914828964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d3154bf18fb%3A0x706bf6b0e2157ca9!2sLogin360!5e0!3m2!1sen!2sin!4v1725010322875!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+        <div class=" p-sm-1 d-flex flex-sm-column flex-lg-row flex-md-row justify-content-around align-items-center wholecard">
+            <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOO0jhtR_eBJTQV6Kx2Orr-YS7Jev2OXgItw&s" style="height: 300px;"  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Raayan</h5>
+                  <p class="card-text">After his family is killed, a young man trains to avenge their murders. Seeking those responsible, his quest leads him through the criminal underworld.</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIPlf787T2N5InK3QoCrg2OkNLR_7-PWq74g&s" style="height: 300px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kottukaali</h5>
+                  <p class="card-text"> The film,which revolves around Meena who loves a man from lower caste but her family thinks she is possessed and cast the spell out of her,stars Soori.</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://static.hindutamil.in/hindu/uploads/common/2022/11/21/16690245143078.jpeg"style="height: 300px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Vaazhai</h5>
+                  <p class="card-text">Inspired by true events, "Vaazhai" chronicles, through the story of a lost childhood, the struggles and aspirations of raw banana plantation workers.</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://static.toiimg.com/photo/111302049.cms?imgsize=170782"style="height: 300px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kalki 2829 AD</h5>
+                  <p class="card-text">Inspired by Hindu mythology, Set in a post-apocalyptic world in year 2898 AD,the film follows a select group who are on a mission to save unborn child, Kalki.</p>
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
         </div>
-    </div>
-    
+        <div class="w-100  p-2 d-flex  flex-sm-column flex-lg-row flex-md-row align-items-center justify-content-between bg-light " id="content">
+            <div class="w-30 p-1 ">
+                <img src="https://static.langimg.com/photo/imgsize-19151,msid-80723107/navbharat-times.jpg" alt="image" class="rounded" width="250px" height="250px"/>
+              </div>
+            <div class="w-70 p-2  d-flex flex-sm-column align-items-sm-center align-items-md-start align-items-lg-start ">
+               <p>BookMyShow is an aggregator service for the entertainment industry whereby we can assist you with information and ticketing for movies and various other events across many cities all
+                 over India.it offers a convenient and user-friendly way for people to access and book tickets for a wide range of entertainment events,
+             </p>
+             <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-240/coming-soon-collection-202211190543.png" alt="image" class="w-5"  height="50px"/>
+            </div>
+              
+            </div>
 </body>
 </html>
