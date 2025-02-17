@@ -5,106 +5,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>book my showww</title>
+    <title>Book My Show</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
-        <div class="container-fluid">
-          <a class="navbar-brand text-light" href="#"><i>bookmyshow</i></a>
-          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light " href="#">Tickets</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Movies
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item text-light" href="#">Vaalai</a></li>
-                  <li><a class="dropdown-item text-light" href="#">Kottukaali</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item text-light" href="#">Raayan</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">Help</a>
-              </li>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="#"><i>bookmyshow</i></a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Tickets</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Movies
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item text-dark" href="#">Vaalai</a></li>
+              <li><a class="dropdown-item text-dark" href="#">Kalki 2829 AD</a></li>
+              <li><a class="dropdown-item text-dark" href="#">Kottukaali</a></li>
+              
+              <li><a class="dropdown-item text-dark" href="#">Raayan</a></li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search Movies" aria-label="Search">
-              <button class="btn btn-outline-light text-light " type="submit">Search</button>
-            </form>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">Help</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search Movies" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--header-->
+  <div class="w-100 p-2 d-flex flex-column-reverse flex-md-row flex-lg-row align-items-center bg-light">
+    <div class="col-12 col-sm-8 col-md-7 col-lg-7 p-1 d-flex flex-column align-items-center align-items-md-start">
+      <h2>G.O.A.T</h2>
+      <p>The G.O.A.T Movie's short story is about an elite agent who retires and leads a quiet life. When a past mission resurfaces, he reunites with his team to prevent a catastrophic disaster...</p>
+      <a href="#content"><button class="btn btn-primary" type="submit">Buy</button></a>
+    </div>
+    
+   
+    <div class="col-12 col-sm-4 col-md-5 col-lg-5 p-1 d-flex justify-content-center">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc-EL8f2cqL2cQUvaIZ6FuZxBtoCKANtucjw&s" alt="G.O.A.T" class="img-fluid" style="max-width: 250px; height: auto;" />
+    </div>
+  </div>
+
+  <!-- content-->
+  <div class="container-fluid p-1 bg-dark text-light">
+    <h3>Trending Movies</h3>
+  </div>
+ 
+  <div class="container">
+    <div class="row justify-content-center justify-content-sm-start">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOO0jhtR_eBJTQV6Kx2Orr-YS7Jev2OXgItw&s" style="height: 300px;" class="card-img-top" alt="Raayan">
+          <div class="card-body">
+            <h5 class="card-title">Raayan</h5>
+            <p class="card-text">After his family is killed, a young man trains to avenge their murders. His quest leads him through the criminal underworld.</p>
+            <a href="#" class="btn btn-primary">Buy</a>
           </div>
         </div>
-      </nav>
-        <div class="w-100  p-2   flex-sm-column-reverse flex-lg-row flex-md-row  align-items-center  bg-light">
-        <div class="w-70 p-1  flex-sm-column align-items-xs-center align-items-sm-center align-items-md-start align-items-lg-start">
-          <h2>G.O.A.T</h2>
-           <p> The G.O.A.T Movie's short story is After years of successful operations, an elite agent suddenly retires, choosing a quiet, ordinary life. However, when a past mission comes back to haunt him, he reunites with his team to prevent a catastrophic disaster.
-            Vijay left his fans in awe with his action-packed avatar in the trailer. It introduced Vijay as a field agent and spy who has carried out over 65 successful operations in his career. The trailer gave a glimpse of Vijay's double role, playing a father-son duo.
-         </p>
-        <a href="#content"> <button class="btn btn-primary " type="submit"> Buy </button></a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIPlf787T2N5InK3QoCrg2OkNLR_7-PWq74g&s" style="height: 300px;" class="card-img-top" alt="Kottukaali">
+          <div class="card-body">
+            <h5 class="card-title">Kottukaali</h5>
+            <p class="card-text">The film revolves around Meena who loves a man from a lower caste but her family thinks she is possessed and casts a spell on her.</p>
+            <a href="#" class="btn btn-primary">Buy</a>
+          </div>
         </div>
-           <div class="w-30 p-1  ">
-             <img src="https://static.toiimg.com/thumb/msid-112527716,width-1280,height-720,imgsize-141854,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg" alt="image" class="rounded" width="250px" height="250px"/>
-           </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="card">
+          <img src="https://static.hindutamil.in/hindu/uploads/common/2022/11/21/16690245143078.jpeg" style="height: 300px;" class="card-img-top" alt="Vaazhai">
+          <div class="card-body">
+            <h5 class="card-title">Vaazhai</h5>
+            <p class="card-text">Inspired by true events, Vaazhai chronicles the struggles and aspirations of raw banana plantation workers.</p>
+            <a href="#" class="btn btn-primary">Buy</a>
+          </div>
         </div>
-        
-        <div class="container-fluid p-1 bg-dark text-light ">
-          <h3>Trending Movies</h3>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="card">
+          <img src="https://static.toiimg.com/photo/111302049.cms?imgsize=170782" style="height: 300px;" class="card-img-top" alt="Kalki 2829 AD">
+          <div class="card-body">
+            <h5 class="card-title">Kalki 2829 AD</h5>
+            <p class="card-text">Set in a post-apocalyptic world in year 2898 AD, the film follows a group who are on a mission to save the unborn child Kalki.</p>
+            <a href="#" class="btn btn-primary">Buy</a>
+          </div>
         </div>
-        <div class="p-sm-1   flex-sm-column flex-lg-row flex-md-row justify-content-around align-items-center wholecard">
-            <div class="card" style="width: 18rem;">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOO0jhtR_eBJTQV6Kx2Orr-YS7Jev2OXgItw&s" style="height: 300px;"  class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Raayan</h5>
-                  <p class="card-text">After his family is killed, a young man trains to avenge their murders. Seeking those responsible, his quest leads him through the criminal underworld.</p>
-                  <a href="#" class="btn btn-primary">Buy</a>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem;">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIPlf787T2N5InK3QoCrg2OkNLR_7-PWq74g&s" style="height: 300px;" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Kottukaali</h5>
-                  <p class="card-text"> The film,which revolves around Meena who loves a man from lower caste but her family thinks she is possessed and cast the spell out of her,stars Soori.</p>
-                  <a href="#" class="btn btn-primary">Buy</a>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem;">
-                <img src="https://static.hindutamil.in/hindu/uploads/common/2022/11/21/16690245143078.jpeg"style="height: 300px;" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Vaazhai</h5>
-                  <p class="card-text">Inspired by true events, "Vaazhai" chronicles, through the story of a lost childhood, the struggles and aspirations of raw banana plantation workers.</p>
-                  <a href="#" class="btn btn-primary">Buy</a>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem;">
-                <img src="https://static.toiimg.com/photo/111302049.cms?imgsize=170782"style="height: 300px;" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Kalki 2829 AD</h5>
-                  <p class="card-text">Inspired by Hindu mythology, Set in a post-apocalyptic world in year 2898 AD,the film follows a select group who are on a mission to save unborn child, Kalki.</p>
-                  <a href="#" class="btn btn-primary">Buy</a>
-                </div>
-              </div>
-        </div>
-        <div class="w-100  p-2   flex-sm-column flex-lg-row flex-md-row align-items-center justify-content-between bg-light " id="content">
-            <div class="w-30 p-1 ">
-                <img src="https://static.langimg.com/photo/imgsize-19151,msid-80723107/navbharat-times.jpg" alt="image" class="rounded" width="250px" height="250px"/>
-              </div>
-            <div class="w-70 p-2   flex-sm-column align-items-sm-center align-items-md-start align-items-lg-start ">
-               <p>BookMyShow is an aggregator service for the entertainment industry whereby we can assist you with information and ticketing for movies and various other events across many cities all
-                 over India.it offers a convenient and user-friendly way for people to access and book tickets for a wide range of entertainment events,
-             </p>
-             <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-240/coming-soon-collection-202211190543.png" alt="image" class="w-5"  height="50px"/>
-            </div>
-              
-            </div>
+      </div>
+    </div>
+  </div>
+
+  <!--footer-->
+  <div class="container-fluid p-2 bg-light" id="content">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-12 col-sm-4 col-md-3 col-lg-3 p-1 d-flex justify-content-center">
+        <img src="https://static.langimg.com/photo/imgsize-19151,msid-80723107/navbharat-times.jpg" alt="Image" class="rounded" width="250px" height="250px"/>
+      </div>
+      <div class="col-12 col-sm-8 col-md-9 col-lg-9 p-2 d-flex flex-column align-items-center align-items-sm-center align-items-md-start">
+        <p>BookMyShow is an aggregator service for the entertainment industry that assists with information and ticketing for movies and various events across India.</p>
+        <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-240/coming-soon-collection-202211190543.png" alt="Coming Soon" class="w-100" height="50px"/>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
